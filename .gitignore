@@ -1,0 +1,16 @@
+# Airflow
+*.log
+*.err
+*.out
+*.pid
+*.sqlite
+*.zip
+*.tar.gz
+*.tar
+*.gz
+/logs/
+/plugins/
+/tmp/
+
+# Ignore sensitive or environment-specific files
+/config/airflow.cfg
